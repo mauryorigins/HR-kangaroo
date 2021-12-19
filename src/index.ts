@@ -1,12 +1,11 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-import gradingStudents from './gradingStudents';
+// Source: https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true
+import kangaroo from './kangaroo';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [73, 67, 38, 33];
-  const result = gradingStudents(testArray);
+  const result = kangaroo(0, 3, 4, 2);
   console.log('Result: ', result);
 }
 
